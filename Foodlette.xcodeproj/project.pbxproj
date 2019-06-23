@@ -7,21 +7,44 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D0144FEB2298DDDB00F26307 /* AddFilterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0144FEA2298DDDB00F26307 /* AddFilterViewController.swift */; };
+		D0144FED2298E33F00F26307 /* ViewController+Extras.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0144FEC2298E33F00F26307 /* ViewController+Extras.swift */; };
+		D05D5103229CB15A0059001C /* HistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D05D5102229CB15A0059001C /* HistoryViewController.swift */; };
+		D05D5105229CB30C0059001C /* FoodletteHistoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D05D5104229CB30C0059001C /* FoodletteHistoryCell.swift */; };
 		D0B9F0A222988FDD009ABEDA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0B9F0A122988FDD009ABEDA /* AppDelegate.swift */; };
-		D0B9F0A422988FDD009ABEDA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0B9F0A322988FDD009ABEDA /* ViewController.swift */; };
 		D0B9F0A722988FDD009ABEDA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0B9F0A522988FDD009ABEDA /* Main.storyboard */; };
 		D0B9F0A922988FDD009ABEDA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0B9F0A822988FDD009ABEDA /* Assets.xcassets */; };
 		D0B9F0AC22988FDD009ABEDA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0B9F0AA22988FDD009ABEDA /* LaunchScreen.storyboard */; };
+		D0B9F0B622988FF1009ABEDA /* Foodlette.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D0B9F0B422988FF1009ABEDA /* Foodlette.xcdatamodeld */; };
+		D0B9F0B822989002009ABEDA /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0B9F0B722989002009ABEDA /* DataController.swift */; };
+		D0B9F0BE2298906F009ABEDA /* FoodletteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0B9F0BD2298906F009ABEDA /* FoodletteViewController.swift */; };
+		D0B9F0C22298913C009ABEDA /* YelpModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0B9F0C12298913C009ABEDA /* YelpModel.swift */; };
+		D0B9F0C422989143009ABEDA /* YelpClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0B9F0C322989143009ABEDA /* YelpClient.swift */; };
+		D0B9F0C62298914D009ABEDA /* YelpResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0B9F0C52298914D009ABEDA /* YelpResponse.swift */; };
+		D0B9F0CA229893EE009ABEDA /* FoodletteFilterCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0B9F0C9229893EE009ABEDA /* FoodletteFilterCell.swift */; };
+		D0F6F978229B5DD6002CB0B1 /* WinnerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0F6F977229B5DD6002CB0B1 /* WinnerViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D0144FEA2298DDDB00F26307 /* AddFilterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddFilterViewController.swift; sourceTree = "<group>"; };
+		D0144FEC2298E33F00F26307 /* ViewController+Extras.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewController+Extras.swift"; sourceTree = "<group>"; };
+		D05D5102229CB15A0059001C /* HistoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryViewController.swift; sourceTree = "<group>"; };
+		D05D5104229CB30C0059001C /* FoodletteHistoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodletteHistoryCell.swift; sourceTree = "<group>"; };
 		D0B9F09E22988FDD009ABEDA /* Foodlette.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Foodlette.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0B9F0A122988FDD009ABEDA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D0B9F0A322988FDD009ABEDA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		D0B9F0A622988FDD009ABEDA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D0B9F0A822988FDD009ABEDA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D0B9F0AB22988FDD009ABEDA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D0B9F0AD22988FDD009ABEDA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D0B9F0B522988FF1009ABEDA /* Foodlette.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Foodlette.xcdatamodel; sourceTree = "<group>"; };
+		D0B9F0B722989002009ABEDA /* DataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
+		D0B9F0BA2298901F009ABEDA /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		D0B9F0BD2298906F009ABEDA /* FoodletteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodletteViewController.swift; sourceTree = "<group>"; };
+		D0B9F0C12298913C009ABEDA /* YelpModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YelpModel.swift; sourceTree = "<group>"; };
+		D0B9F0C322989143009ABEDA /* YelpClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YelpClient.swift; sourceTree = "<group>"; };
+		D0B9F0C52298914D009ABEDA /* YelpResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YelpResponse.swift; sourceTree = "<group>"; };
+		D0B9F0C9229893EE009ABEDA /* FoodletteFilterCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodletteFilterCell.swift; sourceTree = "<group>"; };
+		D0F6F977229B5DD6002CB0B1 /* WinnerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WinnerViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,9 +58,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D077AE7E22B99B8C00488F14 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				D0144FEC2298E33F00F26307 /* ViewController+Extras.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		D0B9F09522988FDC009ABEDA = {
 			isa = PBXGroup;
 			children = (
+				D0B9F0BA2298901F009ABEDA /* README.md */,
 				D0B9F0A022988FDD009ABEDA /* Foodlette */,
 				D0B9F09F22988FDD009ABEDA /* Products */,
 			);
@@ -54,14 +86,89 @@
 		D0B9F0A022988FDD009ABEDA /* Foodlette */ = {
 			isa = PBXGroup;
 			children = (
-				D0B9F0A122988FDD009ABEDA /* AppDelegate.swift */,
-				D0B9F0A322988FDD009ABEDA /* ViewController.swift */,
-				D0B9F0A522988FDD009ABEDA /* Main.storyboard */,
-				D0B9F0A822988FDD009ABEDA /* Assets.xcassets */,
-				D0B9F0AA22988FDD009ABEDA /* LaunchScreen.storyboard */,
 				D0B9F0AD22988FDD009ABEDA /* Info.plist */,
+				D0B9F0A122988FDD009ABEDA /* AppDelegate.swift */,
+				D0B9F0B322988FE5009ABEDA /* Model */,
+				D0B9F0BB2298902B009ABEDA /* View */,
+				D0B9F0B922989007009ABEDA /* Controller */,
+				D077AE7E22B99B8C00488F14 /* Extensions */,
+				D0B9F0BC22989035009ABEDA /* Supporting Files */,
 			);
 			path = Foodlette;
+			sourceTree = "<group>";
+		};
+		D0B9F0B322988FE5009ABEDA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D0B9F0B422988FF1009ABEDA /* Foodlette.xcdatamodeld */,
+				D0B9F0B722989002009ABEDA /* DataController.swift */,
+				D0B9F0C022989131009ABEDA /* Data */,
+				D0B9F0BF2298911F009ABEDA /* Yelp */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D0B9F0B922989007009ABEDA /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D0B9F0BD2298906F009ABEDA /* FoodletteViewController.swift */,
+				D0F6F977229B5DD6002CB0B1 /* WinnerViewController.swift */,
+				D05D5102229CB15A0059001C /* HistoryViewController.swift */,
+				D0144FEA2298DDDB00F26307 /* AddFilterViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		D0B9F0BB2298902B009ABEDA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D0B9F0C8229893BE009ABEDA /* Cell */,
+				D0B9F0C7229893AD009ABEDA /* Storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D0B9F0BC22989035009ABEDA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D0B9F0A822988FDD009ABEDA /* Assets.xcassets */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D0B9F0BF2298911F009ABEDA /* Yelp */ = {
+			isa = PBXGroup;
+			children = (
+				D0B9F0C322989143009ABEDA /* YelpClient.swift */,
+				D0B9F0C52298914D009ABEDA /* YelpResponse.swift */,
+			);
+			path = Yelp;
+			sourceTree = "<group>";
+		};
+		D0B9F0C022989131009ABEDA /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				D0B9F0C12298913C009ABEDA /* YelpModel.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		D0B9F0C7229893AD009ABEDA /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				D0B9F0A522988FDD009ABEDA /* Main.storyboard */,
+				D0B9F0AA22988FDD009ABEDA /* LaunchScreen.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		D0B9F0C8229893BE009ABEDA /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				D0B9F0C9229893EE009ABEDA /* FoodletteFilterCell.swift */,
+				D05D5104229CB30C0059001C /* FoodletteHistoryCell.swift */,
+			);
+			path = Cell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,8 +242,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D0B9F0A422988FDD009ABEDA /* ViewController.swift in Sources */,
+				D0B9F0CA229893EE009ABEDA /* FoodletteFilterCell.swift in Sources */,
+				D05D5105229CB30C0059001C /* FoodletteHistoryCell.swift in Sources */,
+				D0144FEB2298DDDB00F26307 /* AddFilterViewController.swift in Sources */,
+				D0B9F0BE2298906F009ABEDA /* FoodletteViewController.swift in Sources */,
+				D05D5103229CB15A0059001C /* HistoryViewController.swift in Sources */,
+				D0F6F978229B5DD6002CB0B1 /* WinnerViewController.swift in Sources */,
+				D0B9F0B622988FF1009ABEDA /* Foodlette.xcdatamodeld in Sources */,
+				D0B9F0B822989002009ABEDA /* DataController.swift in Sources */,
 				D0B9F0A222988FDD009ABEDA /* AppDelegate.swift in Sources */,
+				D0B9F0C22298913C009ABEDA /* YelpModel.swift in Sources */,
+				D0144FED2298E33F00F26307 /* ViewController+Extras.swift in Sources */,
+				D0B9F0C62298914D009ABEDA /* YelpResponse.swift in Sources */,
+				D0B9F0C422989143009ABEDA /* YelpClient.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -336,6 +454,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		D0B9F0B422988FF1009ABEDA /* Foodlette.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D0B9F0B522988FF1009ABEDA /* Foodlette.xcdatamodel */,
+			);
+			currentVersion = D0B9F0B522988FF1009ABEDA /* Foodlette.xcdatamodel */;
+			path = Foodlette.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = D0B9F09622988FDC009ABEDA /* Project object */;
 }
