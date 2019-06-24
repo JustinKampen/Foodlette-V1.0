@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		D0144FEB2298DDDB00F26307 /* AddFilterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0144FEA2298DDDB00F26307 /* AddFilterViewController.swift */; };
 		D0144FED2298E33F00F26307 /* ViewController+Extras.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0144FEC2298E33F00F26307 /* ViewController+Extras.swift */; };
+		D04F053522C04D9200E8C4C3 /* YelpConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04F053422C04D9200E8C4C3 /* YelpConstants.swift */; };
 		D05D5103229CB15A0059001C /* HistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D05D5102229CB15A0059001C /* HistoryViewController.swift */; };
 		D05D5105229CB30C0059001C /* FoodletteHistoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D05D5104229CB30C0059001C /* FoodletteHistoryCell.swift */; };
 		D0B9F0A222988FDD009ABEDA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0B9F0A122988FDD009ABEDA /* AppDelegate.swift */; };
@@ -28,6 +29,7 @@
 /* Begin PBXFileReference section */
 		D0144FEA2298DDDB00F26307 /* AddFilterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddFilterViewController.swift; sourceTree = "<group>"; };
 		D0144FEC2298E33F00F26307 /* ViewController+Extras.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewController+Extras.swift"; sourceTree = "<group>"; };
+		D04F053422C04D9200E8C4C3 /* YelpConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YelpConstants.swift; sourceTree = "<group>"; };
 		D05D5102229CB15A0059001C /* HistoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryViewController.swift; sourceTree = "<group>"; };
 		D05D5104229CB30C0059001C /* FoodletteHistoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodletteHistoryCell.swift; sourceTree = "<group>"; };
 		D0B9F09E22988FDD009ABEDA /* Foodlette.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Foodlette.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -140,6 +142,7 @@
 			isa = PBXGroup;
 			children = (
 				D0B9F0C322989143009ABEDA /* YelpClient.swift */,
+				D04F053422C04D9200E8C4C3 /* YelpConstants.swift */,
 				D0B9F0C52298914D009ABEDA /* YelpResponse.swift */,
 			);
 			path = Yelp;
@@ -243,6 +246,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D0B9F0CA229893EE009ABEDA /* FoodletteFilterCell.swift in Sources */,
+				D04F053522C04D9200E8C4C3 /* YelpConstants.swift in Sources */,
 				D05D5105229CB30C0059001C /* FoodletteHistoryCell.swift in Sources */,
 				D0144FEB2298DDDB00F26307 /* AddFilterViewController.swift in Sources */,
 				D0B9F0BE2298906F009ABEDA /* FoodletteViewController.swift in Sources */,

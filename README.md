@@ -23,3 +23,8 @@ Foodlette randomly selects a restaurant to eat at, Russian Roulette style.
 - Allows to user to create a new filter to be used.
 - User can set the filter image, name, category and ratings.
 - The criteria is used when the filter is selected.
+
+# Developed With
+- iOS 12.2
+- xcode 10.12.1
+- Swift 5

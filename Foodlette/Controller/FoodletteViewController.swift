@@ -102,6 +102,8 @@ class FoodletteViewController: UIViewController, NSFetchedResultsControllerDeleg
         YelpClient.getBusinessDataFor(categories: categories, latitude: latitude, longitude: longitude) { (business, error) in
             guard let business = business else {
                 self.alert(message: "Could not load Winner. Please check your connection")
+                activityIndicator.stopAnimating()
+                self.navigationItems(isEnabled: true)
                 return
             }
             YelpModel.data = business

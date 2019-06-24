@@ -11,10 +11,7 @@ import Foundation
 class YelpClient {
     
     // -------------------------------------------------------------------------
-    // MARK: - API Properties
-    
-    static let clientId = "BZCpr2PAxWVNDVmgblzY8w"
-    static let apiKey = "qIoNXdamWH33zF0trJMPnntEFwdFM55gXnE8ArwUf2xwJmtMxqAM5trJ4IWn1Wlcz6G3tcBeqo5ZdwdMSXqI2a_n_YghdmuERFZBqIer05L0cWFgKKzbhC0mHEGuXHYx"
+    // MARK: - API Endpoints
     
     enum Endpoints {
         static let base = "https://api.yelp.com/v3/businesses/"
@@ -51,7 +48,7 @@ class YelpClient {
                 completion(businessData.businesses, nil)
             } catch {
                 completion(nil, error)
-                print(error.localizedDescription)
+                debugPrint(error.localizedDescription)
             }
         }
         task.resume()

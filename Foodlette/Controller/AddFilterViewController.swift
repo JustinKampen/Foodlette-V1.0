@@ -24,7 +24,7 @@ class AddFilterViewController: UIViewController, UINavigationControllerDelegate,
     
     let foodletteViewController = FoodletteViewController()
     var dataController: DataController!
-    var minRating = 1.0
+    var minRating = 0.0
     var maxRating = 5.0
     
     // -------------------------------------------------------------------------
@@ -35,6 +35,7 @@ class AddFilterViewController: UIViewController, UINavigationControllerDelegate,
         navigationItem.title = "Create New Filter"
         navigationItem.backBarButtonItem?.tintColor = .white
         navigationItem.rightBarButtonItem = UIBarButtonItem(barButtonSystemItem: .save, target: self, action: #selector(handleAddFilter))
+        cameraButton.isEnabled = UIImagePickerController.isSourceTypeAvailable(.camera)
         filterNameTextField.delegate = self
         filterCategoryTextField.delegate = self
         imageViewSyling(filterImageView)
@@ -94,7 +95,7 @@ class AddFilterViewController: UIViewController, UINavigationControllerDelegate,
     }
     
     @IBAction func updateMinRatingValue(_ sender: Any) {
-        minRating = Double(minRatingSegmentedControl.selectedSegmentIndex) + 1.0
+        minRating = Double(minRatingSegmentedControl.selectedSegmentIndex)
     }
 
     @IBAction func updateMaxRatingValue(_ sender: Any) {
